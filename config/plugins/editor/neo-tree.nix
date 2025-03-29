@@ -26,15 +26,15 @@
 
       gitStatus = {
         symbols = {
-          added = " ";
-          conflict = "󰩌 ";
-          deleted = "󱂥";
+          added = " ";
+          conflict = " ";
+          deleted = " ";
           ignored = " ";
           modified = " ";
-          renamed = "󰑕";
-          staged = "󰩍";
-          unstaged = "";
-          untracked = " ";
+          renamed = " ";
+          staged = "";
+          unstaged = "";
+          untracked = "";
         };
       };
     };
