@@ -10,16 +10,16 @@ _: {
           text = " ";
         };
         delete = {
-          text = " ";
+          text = " ";
         };
         untracked = {
           text = "";
         };
         topdelete = {
-          text = "󱂥 ";
+          text = " ";
         };
         changedelete = {
-          text = "󱂧 ";
+          text = " ";
         };
       };
     };
