@@ -37,12 +37,12 @@
         margin = 5;
         content = [
           [
-            " Find File"
+            " Find File"
             "Telescope find_files"
             "ff"
           ]
           [
-            "󰍉 Find Word"
+            " Find Word"
             "Telescope live_grep"
             "fr"
           ]
@@ -62,7 +62,7 @@
             "ct"
           ]
           [
-            "󰧑 SecondBrain"
+            "ﮧ SecondBrain"
             "edit ~/projects/personal/SecondBrain"
             "sb"
           ]
