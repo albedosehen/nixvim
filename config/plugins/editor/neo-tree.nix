@@ -19,22 +19,22 @@
     defaultComponentConfigs = {
       indent = {
         withExpanders = true;
-        expanderCollapsed = "󰅂";
-        expanderExpanded = "󰅀";
+        expanderCollapsed = "";
+        expanderExpanded = "";
         expanderHighlight = "NeoTreeExpander";
       };
 
       gitStatus = {
         symbols = {
-          added = " ";
+          added = " ";
           conflict = " ";
           deleted = " ";
           ignored = " ";
           modified = " ";
           renamed = " ";
-          staged = "";
-          unstaged = "";
-          untracked = "";
+          staged = " ";
+          unstaged = " ";
+          untracked = " ";
         };
       };
     };

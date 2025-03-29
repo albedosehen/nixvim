@@ -20,7 +20,7 @@ _: {
         lualine_a = [
           {
             __unkeyed-1 = "mode";
-            icon = "";
+            icon = " ";
           }
         ];
         lualine_b = [
@@ -45,7 +45,7 @@ _: {
               error = " ";
               warn = " ";
               info = " ";
-              hint = "󰝶 ";
+              hint = " ";
             };
           }
           {
@@ -69,9 +69,9 @@ _: {
           {
             __unkeyed-1.__raw = ''
               function()
-                local icon = " "
+                local icon = " "
                 local status = require("copilot.api").status.data
-                return icon .. (status.message or " ")
+                return icon .. (status.message or " ")
               end,
 
               cond = function()

@@ -3,7 +3,7 @@ _: {
     markdown-preview = {
       enable = true;
       settings = {
-        browser = "firefox";
+        browser = "edge";
         echo_preview_url = 1;
         port = "6969";
         preview_options = {
