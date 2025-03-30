@@ -76,7 +76,7 @@
         configs = {
           default = {
             name = "Notifications";
-            icon = "󰏪";
+            icon = "";
             group = "Notifications";
             annote = true;
             debug = false;
