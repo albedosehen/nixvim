@@ -1,5 +1,5 @@
 {
-  description = "deCort.tech NeoVim configuration";
+  description = "Albedosehen's NeoVim configuration";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -65,6 +65,8 @@
 
           packages = {
             default = nvim;
+            # astro-ls = pkgs.astro-ls;
+            # emmet-ls = pkgs.vscode-langservers-extracted;
           };
 
           devShells = {

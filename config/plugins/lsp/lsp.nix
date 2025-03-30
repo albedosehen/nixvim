@@ -77,6 +77,21 @@
             };
           };
         };
+        emmet_ls = {
+          enable = true;
+          extraOptions = {
+            fileTypes = [
+              "html"
+              "css"
+              "javascript"
+              "javascriptreact"
+              "typescriptreact"
+            ];
+            init_options = {
+              showSuggestionsAsSnippets = true;
+            };
+          };
+        };
       };
 
       keymaps = {
@@ -134,6 +149,9 @@
   };
   extraPlugins = with pkgs.vimPlugins; [
     ansible-vim
+    bat-vim
+    catppuccin-vim
+    catppuccin-nvim
   ];
 
   extraConfigLua = ''
