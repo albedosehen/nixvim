@@ -75,6 +75,16 @@
                   "https://json.schemastore.org/dependabot-v2" = ".github/dependabot.{yml,yaml}";
                   "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json" = "*docker-compose*.{yml,yaml}";
                   "https://raw.githubusercontent.com/argoproj/argo-workflows/master/api/jsonschema/schema.json" = "*flow*.{yml,yaml}";
+                  "https://raw.githubusercontent.com/Microsoft/azure-pipelines-vscode/master/schemas/azure-pipelines.schema.json" = "azure-pipelines.yml";
+                  "https://json.schemastore.org/bitbucket-pipelines.json" = "bitbucket-pipelines.yml";
+                  "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/cloudformation.schema.json" = "cloudformation.{yml,yaml}";
+                  "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/schemas/v3.0/schema.json" = "*.openapi.{yml,yaml}";
+                  "https://json.schemastore.org/prettier-config.json" = ".prettierrc.{yml,yaml}";
+                  "https://json.schemastore.org/svelte.config.json" = "svelte.config.{yml,yaml}";
+                  "https://json.schemastore.org/rancher-compose.json" = "rancher-compose.yml";
+                  "https://json.schemastore.org/sentry-config.json" = "sentry.yaml";
+                  "https://json.schemastore.org/travis-ci.json" = ".travis.yml";
+                  "https://raw.githubusercontent.com/aws/aws-sdk-go/master/models/apis/apigateway.json" = "apigateway.yaml";
                 };
               };
             };
