@@ -65,8 +65,7 @@
 
           packages = {
             default = nvim;
-            # astro-ls = pkgs.astro-ls;
-            # emmet-ls = pkgs.vscode-langservers-extracted;
+            inherit (pkgs) astro-language-server;
           };
 
           devShells = {
