@@ -13,7 +13,7 @@ _: {
           text = " ";
         };
         untracked = {
-          text = "";
+          text = "";
         };
         topdelete = {
           text = " ";

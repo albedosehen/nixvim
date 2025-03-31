@@ -26,10 +26,10 @@
 
       gitStatus = {
         symbols = {
-          added = " ";
+          added = " ";
           conflict = " ";
-          deleted = " ";
-          ignored = " ";
+          deleted = " ";
+          ignored = " ";
           modified = " ";
           renamed = " ";
           staged = " ";
