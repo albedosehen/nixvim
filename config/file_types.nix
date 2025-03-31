@@ -33,19 +33,5 @@
         command = "set ft=bicep";
       }
     ];
-
-    "ftdetect/astroft.lua".autoCmd = [
-      {
-        group = "filetypes";
-        event = [
-          "BufRead"
-          "BufNewFile"
-        ];
-        pattern = [
-          "*.astro"
-        ];
-        command = "set ft=astro";
-      }
-    ];
   };
 }
