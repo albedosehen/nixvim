@@ -151,9 +151,9 @@
   };
   extraPlugins = with pkgs.vimPlugins; [
     ansible-vim
-    bat-vim
-    catppuccin-vim
-    catppuccin-nvim
+    #bat-vim
+    #catppuccin-vim
+    #catppuccin-nvim
   ];
 
   extraConfigLua = ''

@@ -8,13 +8,13 @@
           mode = "buffers";
 
           close_icon = " ";
-          buffer_close_icon = " ";
-          modified_icon = " ";
+          buffer_close_icon = " ";
+          modified_icon = " ";
 
           offsets = [
             {
               filetype = "neo-tree";
-              text = "Neo-tree";
+              text = " Neo-Tree";
               highlight = "Directory";
               text_align = "left";
             }
