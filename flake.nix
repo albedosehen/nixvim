@@ -48,7 +48,6 @@
             };
           };
           nvim = nixvim'.makeNixvimWithModule nixvimModule;
-          astro-ls = pkgs.astro-language-server;
         in
         {
           checks = {
@@ -66,7 +65,6 @@
 
           packages = {
             default = nvim;
-            astro-language-server = astro-ls;
           };
 
           devShells = {
