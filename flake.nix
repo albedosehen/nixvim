@@ -40,7 +40,7 @@
           nixvimLib = nixvim.lib.${system};
           nixvim' = nixvim.legacyPackages.${system};
           nixvimModule = {
-            inherit (pkgs) astro-language-server;
+            inherit pkgs;
             module = import ./config; # import the module directly
             # You can use `extraSpecialArgs` to pass additional arguments to your module files
             extraSpecialArgs = {
@@ -48,6 +48,7 @@
             };
           };
           nvim = nixvim'.makeNixvimWithModule nixvimModule;
+          astro-ls = pkgs.astro-language-server;
         in
         {
           checks = {
@@ -65,6 +66,7 @@
 
           packages = {
             default = nvim;
+            astro-language-server = astro-ls;
           };
 
           devShells = {
