@@ -6,7 +6,7 @@
     };
     extraOptions = {
       maxwidth = 50;
-      ellipsis_char = "...";
+      ellipsis_char = "";
     };
   };
 }
