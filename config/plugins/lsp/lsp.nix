@@ -14,9 +14,6 @@
       enable = true;
       inlayHints = true;
       servers = {
-        astro = {
-          enable = true;
-        };
         html = {
           enable = true;
         };
